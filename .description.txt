@@ -1,0 +1,1 @@
+Regex Tester TUI: interactive terminal regex playground with live match highlighting and capture group breakdown. Built with ratatui and crossterm.

@@ -1,0 +1,17 @@
+[package]
+name = "regex-tester-tui"
+version = "0.1.0"
+edition = "2021"
+authors = ["fantasywastaken"]
+description = "Interactive terminal regex tester with live matching and capture highlighting"
+autobins = false
+
+[[bin]]
+name = "regex-tester"
+path = "src/main.rs"
+
+[dependencies]
+ratatui = "0.28"
+crossterm = "0.28"
+regex = "1.10"
+anyhow = "1"
